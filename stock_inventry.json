@@ -1,0 +1,22 @@
+{"Stocks":[
+  {
+    "stock_name":"tata",
+    "number_of shares":"67",
+    "price":"100"
+  },
+  {
+    "stock_name":"mahabank",
+    "number_of shares":"67",
+    "price":"70"
+  },
+  {
+    "stock_name":"reliance",
+    "number_of shares":"67",
+    "price":"80"
+  },
+  {
+    "stock_name":"jio",
+    "number_of shares":"1000",
+    "price":"50"
+  }
+ ]}

@@ -1,0 +1,41 @@
+{
+  "pulses": [
+    {
+      "name": "tur",
+      "prize_per_kg": "58",
+      "weight": "60"
+    },
+    {
+      "name": "chana",
+      "prize_per_kg": "90",
+      "weight": "80"
+    },
+    {
+      "name": "mug",
+      "prize_per_kg": "80",
+      "weight": "50"
+    }
+  ],
+  "rice": {
+    "name": "basmati",
+    "prize_per_kg": "80",
+    "weight": "38"
+  },
+  "wheats": [
+    {
+      "name": "ghehu",
+      "prize_per_kg": "80",
+      "weight": "36"
+    },
+    {
+      "name": "chana",
+      "prize_per_kg": "58",
+      "weight": "25"
+    },
+    {
+      "name": "rice",
+      "prize_per_kg": "76",
+      "weight": "65"
+    }
+  ]
+}
