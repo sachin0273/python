@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2290757-722c-424c-8616-ef97c5bf86ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bridge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/python_programs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/CuponNumbers .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/Distance .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/Flipcion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/IntegeraddstoZero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/LeapYear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/Qudratic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/StopWatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/WindChill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/__init__ .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/gambler .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/harmonicnumber .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/powerof2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/primefactors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/tic_tac_toe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional/username_input .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utility/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utility/utility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Anagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Binary search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Bublesort .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/VendingMachine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/__init__ .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/dayofweek .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/extendedprime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/findnumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/insertionsort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/integer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/primenumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/sqrt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/toBinary .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/__init__ .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_Distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_Flipcoin .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_anagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_cupon_numbers .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_day_of_week.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_decimal_to_binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_gambler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_harmonicnumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_insertion_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_prime_in_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_prime_pelindrom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_quadratic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_tripplets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_username_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_vendingmachine.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1PxWHErcsBJu90Gq5ijT4fsc5GQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_anagram.test_anagram">
+    <configuration name="Anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/Anagram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_anagram.test_anagram" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_anagram.test_anagram&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_username_input.test_username" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_username_input.test_username&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_username_input.test_username2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_username_input.test_username2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_anagram.test_anagram" />
+        <item itemvalue="Python tests.pytest for test_username_input.test_username" />
+        <item itemvalue="Python tests.pytest for test_username_input.test_username2" />
+        <item itemvalue="Python.Anagram" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2290757-722c-424c-8616-ef97c5bf86ea" name="Default Changelist" comment="" />
+      <created>1566816137176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566816137176</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
