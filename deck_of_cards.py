@@ -13,7 +13,7 @@ class Deck_Of_Card:
         return suits
 
     def Rank_Shuffle(self):
-        rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10z", "Jack", "Queen", "King", "Ace"]
+        rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
         random.shuffle(rank)
         return rank
 

@@ -1,31 +1,22 @@
-{"address_book":[
-  {
-    "first_name": "sachin",
-    "last_name": "jadhav",
-    "address": "sangli,palus",
-    "city": "sangli",
-    "state": "maharashtra",
-    "zip": 416308,
-    "phone_number": 9764221757
-  },
-  {
-    "first_name": "praksh",
-    "last_name": "panday",
-    "address": "mumbai,matunga",
-    "city": "mumbai",
-    "state": "maharashtra",
-    "zip": 516408,
-    "phone_number": 9764227839
-  },
-  {
-    "first_name": "rohan",
-    "last_name": "bendre",
-    "address": "kolhapur,motibag",
-    "city": "kolhapur",
-    "state": "maharashtra",
-    "zip": 416308,
-    "phone_number": 9764227689
-  }
-
-
-]}
+{
+  "address_book": [
+    {
+      "address": "mumbai,matunga",
+      "last_name": "panday",
+      "city": "mumbai",
+      "phone_number": 9764227839,
+      "state": "maharashtra",
+      "first_name": "praksh",
+      "zip": 516408
+    },
+    {
+      "address": "kolhapur,motibag",
+      "last_name": "bendre",
+      "city": "kolhapur",
+      "phone_number": 9764227689,
+      "state": "maharashtra",
+      "first_name": "rohan",
+      "zip": 416308
+    }
+  ]
+}
