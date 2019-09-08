@@ -11,47 +11,62 @@ linked = Linked_List()
 
 class Stack_Linked_List:
 
-    def Buy_Share(self, stock_name, shares):
+    def Buy_Share(self, stock_name, share):
         result = load("stock_inventry.json")
         for data in result["Stocks"]:
             if data["stock_name"] == stock_name:
-                new_share = int(data["number_of shares"]) + shares
+                new_share = int(data["number_of shares"]) + share
                 data["number_of shares"] = new_share
         return result
 
-    def Sell_Share(self, stock_name, shares):
+    def Sell_Share(self, stock_name, share):
         result = load("stock_inventry.json")
         for data in result["Stocks"]:
             if data["stock_name"] == stock_name:
-                new_share = int(data["number_of shares"]) - shares
+                new_share = int(data["number_of shares"]) - share
                 data["number_of shares"] = new_share
         return result
+
+    def All_Stocks(self):
+        stocks = load("stock_inventry.json")
+        return stocks
 
     def Stack(self):
         while True:
-            buy_or_sell = int(input("please enter 1 for buy and 2 for sell""for exit enter 3"))
-            if buy_or_sell == 2:
-                account.Display()
-                stock_name = input("please enter stock name to sell")
-                number_of_share = int(input("please enter number of shares"))
-                to_file = self.Sell_Share(stock_name, number_of_share)
-                linked.Add_To_Beginning(stock_name)
-                print()
-                with open('stock_inventry.json', 'w') as outfile:
-                    json.dump(to_file, outfile, indent=2, sort_keys=True)
-            elif buy_or_sell == 1:
-                account.Display()
-                stock_name = input("please enter stock name to buy")
-                number_of_share = int(input("please enter number of shares"))
-                to_file = self.Buy_Share(stock_name, number_of_share)
-                linked.Add_To_Beginning(stock_name)
-                print()
-                with open('stock_inventry.json', 'w') as outfile:
-                    json.dump(to_file, outfile, indent=2, sort_keys=True)
-            if buy_or_sell == 3:
-                print("last transactions")
-                linked.Display()
-                break
+            while True:
+                try:
+                    print("please enter your choice")
+                    buy_or_sell = int(input("1.buy\n2.sell\n3.Exit\n "))
+                    if buy_or_sell == 1:
+                        account.Display()
+                        stock = self.All_Stocks()
+                        stock_name = account.Buy(stock)
+                        share = account.Shares_For_Buy()
+                        to_file = self.Buy_Share(stock_name, share)
+                        linked.Add_To_Beginning(stock_name)
+                        with open('stock_inventry.json', 'w') as outfile:
+                            json.dump(to_file, outfile, indent=2, sort_keys=True)
+                        print("successfully shares bought and stock name added in Stack")
+                        print()
+                    elif buy_or_sell == 2:
+                        account.Display()
+                        stock = self.All_Stocks()
+                        stock_name = account.Sell(stock)
+                        share = account.Shares_For_Sell(stock, stock_name)
+                        to_file = self.Sell_Share(stock_name, share)
+                        linked.Add_To_Beginning(stock_name)
+                        with open('stock_inventry.json', 'w') as outfile:
+                            json.dump(to_file, outfile, indent=2, sort_keys=True)
+                        print("successfully shares sold and stock name added in Stack")
+                        print()
+                    elif buy_or_sell == 3:
+                        print("your last transactions")
+                        linked.Display()
+                        return
+                    else:
+                        print("please enter valid choice")
+                except ValueError:
+                    print("please enter valid input")
 
 
 if __name__ == '__main__':

@@ -1,7 +1,6 @@
 import json
 import os.path
 import re
-from Utility.utility import load
 
 state_city = {"maharashtra": ["pune", "nagpur", "solapur", "kolhapur", "sangli"],
               "goa": ['ponda', 'valpoi', 'panaji'], "karnataka": ['bangalore', 'mysore', 'belgaum'],
@@ -15,9 +14,12 @@ class Information:
         while True:
             try:
                 file_name = input("please enter file name")
-                new_file_name = file_name + ".json"
-                with open(new_file_name, "x") as f:
-                    return new_file_name
+                if 3 <len(file_name) < 20 and file_name.isalpha():
+                    new_file_name = file_name + ".json"
+                    with open(new_file_name, "x") as f:
+                        return new_file_name
+                else:
+                    print("length of file name should be greater then 3 and less than 20")
             except Exception:
                 print("file already exist")
 
@@ -62,10 +64,10 @@ class Information:
         while True:
             try:
                 adress = input("please enter your address")
-                if re.match("^[0-9]+,+\w+,+\w", adress):
+                if re.match('^[1-9]{4}\s[a-zA-Z]{2,20}\s[a-zA-Z]{2,15}$', adress):
                     return adress
                 else:
-                    print("please enter valid address in (home_number,street_name,city)")
+                    print("please enter valid address in (home_number(e.g-1987),street_name,city) format")
             except ValueError:
                 print("please enter valid input")
 
@@ -118,7 +120,7 @@ class Information:
                 if Pattern.match(str(mobile)) and len(str(mobile)) == 12:
                     return mobile
                 else:
-                    print("please enter valid mobile number in 91XXXXXXXXXX format")
+                    print("please enter valid mobile number in 91,7-9,XXXXXXXX format")
             except ValueError:
                 print("please enter valid input")
 
@@ -172,4 +174,4 @@ class Information:
 
 
 if __name__ == '__main__':
-    fg = Information().Open_File()
+    fg = Information().Phone_Number()

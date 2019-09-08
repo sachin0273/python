@@ -43,6 +43,7 @@ if __name__ == '__main__':
                 s1 = Queue_Card(member)
                 s1.Queue()
                 s1.Display()
+                break
             else:
                 print("please enter members less than 6")
         except ValueError:

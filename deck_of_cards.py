@@ -33,12 +33,16 @@ class Deck_Of_Card:
         index_y = 0
         index_j = 9
         for member in range(self.members):
-            print("player", member + 1, "cards: ")
-            print(my_cards[index_y:index_j])
             array[member] = my_cards[index_y:index_j]
             index_y = index_j
             index_j += 9
         return array
+
+    def Array(self):
+        result = self.Distribute_Card()
+        for player in range(self.members):
+            print("player: ", player + 1)
+            print(result[player])
 
 
 if __name__ == '__main__':
@@ -47,7 +51,7 @@ if __name__ == '__main__':
             members = int(input("please enter members"))
             if 0 < members < 6:
                 card = Deck_Of_Card(members)
-                card.Distribute_Card()
+                card.Array()
                 break
             else:
                 print("please enter members less than 6")

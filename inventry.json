@@ -13,14 +13,16 @@
     {
       "name": "mug",
       "prize_per_kg": "80",
-      "weight": "50"
+      "weight": "23"
     }
   ],
-  "rice": {
-    "name": "basmati",
-    "prize_per_kg": "80",
-    "weight": "38"
-  },
+  "rice": [
+    {
+      "name": "basmati",
+      "prize_per_kg": "80",
+      "weight": "38"
+    }
+  ],
   "wheats": [
     {
       "name": "ghehu",
