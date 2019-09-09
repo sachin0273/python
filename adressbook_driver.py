@@ -13,17 +13,17 @@ import json
 book = Information()  # here we creating object of Imported Information class
 
 
-class Address_Driver(Address_book):
-    def __init__(self, first_name, last_name, address, city, state, zip,phone_number):
+class Address_Driver(Address_book):  # Address_book is base class and Address_Driver is child class
+    def __init__(self, first_name, last_name, address, city, state, zip, phone_number):  # here we use inheritance
         super().__init__(first_name, last_name, address, city, state, zip, phone_number)
 
 
 if __name__ == '__main__':
     """
 
-            :return: this method is actual address book here we perform operation like,
+    :return: in this  is actual address book here we perform operation like,
                     adding,displaying,sorting,adding user data and remove
-            """
+    """
     new = {"address_book": []}
     while True:
         try:
@@ -112,5 +112,3 @@ if __name__ == '__main__':
                 print("please enter valid choice")
         except ValueError:
             print("please enter valid input")
-
-
