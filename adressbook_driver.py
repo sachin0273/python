@@ -13,12 +13,17 @@ import json
 book = Information()  # here we creating object of Imported Information class
 
 
-def Driver():
+class Address_Driver(Address_book):
+    def __init__(self, first_name, last_name, address, city, state, zip,phone_number):
+        super().__init__(first_name, last_name, address, city, state, zip, phone_number)
+
+
+if __name__ == '__main__':
     """
 
-    :return: this method is actual address book here we perform operation like,
-            adding,displaying,sorting,adding user data and remove
-    """
+            :return: this method is actual address book here we perform operation like,
+                    adding,displaying,sorting,adding user data and remove
+            """
     new = {"address_book": []}
     while True:
         try:
@@ -37,7 +42,7 @@ def Driver():
                             city = book.City(state)
                             zip_code = book.Zip_Code()
                             number = book.Phone_Number()
-                            slot = Address_book(first_name, last_name, address, city, state, zip_code, number)
+                            slot = Address_Driver(first_name, last_name, address, city, state, zip_code, number)
                             """here we creating object of imported Address book class"""
 
                             data = json.dumps(slot, default=slot.adress_obj)
@@ -92,7 +97,8 @@ def Driver():
                         elif user_input == 5:
                             result = book.Remove(adresess[0])  # here removing addresses by name
                             with open(adresess[1], "w")as f:
-                                json.dump(result, f, indent=2, sort_keys=False)  # here writing addresses after removing
+                                json.dump(result, f, indent=2,
+                                          sort_keys=False)  # here writing addresses after removing
                             print("removed successfully")
                         elif user_input == 6:
                             break
@@ -108,5 +114,3 @@ def Driver():
             print("please enter valid input")
 
 
-if __name__ == '__main__':
-    Driver()

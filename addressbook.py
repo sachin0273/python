@@ -13,7 +13,8 @@ class Address_book:
     here we creating Address book class in this class we taking addresbook details
     """
 
-    def __init__(self, first_name, last_name, address, city, state, zip,phone_number):  # here we initializing attributes
+    def __init__(self, first_name, last_name, address, city, state, zip,
+                 phone_number):  # here we initializing attributes
         self.first_name = first_name
         self.last_name = last_name
         self.address = address
@@ -27,4 +28,4 @@ class Address_book:
 
 
 if __name__ == '__main__':
-    Address_book()
+    pass
