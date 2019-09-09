@@ -1,14 +1,30 @@
+"""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Purpose: in this program we created stock Account for buy And sell and write the operations into json
+author:  Sachin Shrikant Jadhav
+since :  7-09-2019
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""
+
 from OOPS.commercial_data_processing import Stock_Account
 from Utility.utility import load
 import json
 
 account = Stock_Account(shares=0, stock_name='')
+"""here we creating object of imported Stock Account class"""
 
 
 class Data_Processing:
 
     def Buy_Share(self, stock_name, share):
-        result = load("stock_inventry.json")
+        """
+
+        :param stock_name: this is stock name you want buy
+        :param share: this number of shares you want to buy
+        :return:this method update the stock account after every buy operation
+        """
+        result = load("stock_inventry.json")  # here we taking stock details from json file
         for data in result["Stocks"]:
             if data["stock_name"] == stock_name:
                 new_share = int(data["number_of shares"]) + share
@@ -16,7 +32,14 @@ class Data_Processing:
         return result
 
     def Sell_Share(self, stock_name, share):
-        result = load("stock_inventry.json")
+        """
+
+        :param stock_name: this is stock name you want sell
+        :param share: this number of shares you want to sell
+        :return: this method update the stock account after every sell operation
+
+        """
+        result = load("stock_inventry.json")  # here we taking stock details from json file
         for data in result["Stocks"]:
             if data["stock_name"] == stock_name:
                 new_share = int(data["number_of shares"]) - share
@@ -24,10 +47,20 @@ class Data_Processing:
         return result
 
     def All_Stocks(self):
+        """
+
+        :return: this method return all stock details
+
+        """
         stocks = load("stock_inventry.json")
         return stocks
 
     def Driver(self):
+        """
+
+        :return: in this method we actual perform the stock account and write the operations into jason file
+
+        """
         while True:
             try:
                 print("please enter your choice")
@@ -46,7 +79,7 @@ class Data_Processing:
                     account.Display()
                     stock = self.All_Stocks()
                     stock_name = account.Sell(stock)
-                    share = account.Shares_For_Sell(stock,stock_name)
+                    share = account.Shares_For_Sell(stock, stock_name)
                     to_file = self.Sell_Share(stock_name, share)
                     with open('stock_inventry.json', 'w') as outfile:
                         json.dump(to_file, outfile, indent=2, sort_keys=True)

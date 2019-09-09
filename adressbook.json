@@ -1,22 +1,13 @@
 {
   "address_book": [
     {
-      "last_name": "panday",
-      "zip": 516408,
-      "address": "mumbai,matunga",
-      "state": "maharashtra",
-      "city": "mumbai",
-      "first_name": "praksh",
-      "phone_number": 9764227839
-    },
-    {
-      "last_name": "bendre",
-      "zip": 416308,
-      "address": "kolhapur,motibag",
-      "state": "maharashtra",
-      "city": "kolhapur",
+      "phone_number": 9764227689,
       "first_name": "rohan",
-      "phone_number": 9764227689
+      "state": "maharashtra",
+      "zip": 416308,
+      "last_name": "bendre",
+      "city": "kolhapur",
+      "address": "kolhapur,motibag"
     }
   ]
 }

@@ -1,0 +1,108 @@
+{
+  "test":[{
+    "phone_number": [{"description":"string input",
+                 "input": "dfshsbbb",
+                 "output": false
+                },  {"description":"space input",
+                 "string1": " ",
+                 "input": false},
+                 {"description":"spacial_char input",
+                 "input": "@@##$$$",
+                 "output": false},
+                {"description":"digit input",
+                 "input": 12345655343,
+                 "output": false},
+                 {"description":"number input",
+                 "input": 919923837067,
+                 "output": 919923837067}
+               ],
+    "state": [{"description":"string input",
+                 "input": "maharashtra",
+                 "output": "maharashtra"
+                },  {"description":"space input",
+                 "input": " ",
+                 "output": false},
+                 {"description":"spacial_char input",
+                 "input": "@@$$##",
+                 "output": false},
+                {"description":"digit input",
+                 "input": 1234,
+                 "output": false}
+               ],
+    "dec_of_card": [{"description":"string input",
+                 "input": "dfshsbbb",
+                 "output": false
+                },  {"description":"space input",
+                 "input": "  ",
+                 "output": false},
+                 {"description":"spacial_char input",
+                   "input": "@#@#$$",
+                 "output": false},
+                {"description":"digit input",
+                  "input":5,
+                 "output": 5}
+               ],
+    "city": [{"description":"string input",
+                 "input": "mumbai",
+                 "output": "mumbai"
+                },  {"description":"space input",
+                 "input": " ",
+                 "output": false},
+                 {"description":"spacial_char input",
+                 "input": "@@$$##",
+                 "output": false},
+                {"description":"digit input",
+                 "input": 1234,
+                 "output": false}
+               ],
+    "zip_code": [{"description":"string input",
+                 "input": "madam",
+                 "output": false
+                },  {"description":"space input",
+                 "input": " ",
+                 "output": false},
+                 {"description":"spacial_char input",
+                 "input": "@@$$##",
+                 "output": false},
+                {"description":"digit input",
+                 "input": 1234,
+                 "output": false},
+                {"description":"zip_code input",
+                 "input": 416908,
+                 "output": 416908}
+
+               ],
+    "full_name": [{"description":"string input",
+                 "input": "madam",
+                 "output": false
+                },  {"description":"space input",
+                 "input": " ",
+                 "output": false},
+                 {"description":"spacial_char input",
+                 "input": "@@$$##",
+                 "output": false},
+                {"description":"digit input",
+                 "input": 1234,
+                 "output": false},
+                {"description":"full_name input",
+                 "input": "sachin shrikant jadhav",
+                 "output": "sachin shrikant jadhav"}
+               ],
+    "address": [{"description":"string input",
+                 "input": "madam",
+                 "output": false
+                },  {"description":"space input",
+                 "input": " ",
+                 "output": false},
+                 {"description":"spacial_char input",
+                 "input": "@@$$##",
+                 "output": false},
+                {"description":"digit input",
+                 "input": "1234",
+                 "output": false},
+                {"description":"address_input",
+                 "input": "1234 budhgaon sangli",
+                 "output": "1234 budhgaon sangli"}
+               ]
+  }]
+}
